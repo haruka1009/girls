@@ -20,7 +20,8 @@
             android:label="@string/title_activity_osusume_2"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Play_3" />
-        <activity android:name=".card_5"></activity>
+        <activity android:name=".card_5" />
+        <activity android:name=".otsukare_4"></activity>
     </application>
 
 </manifest>

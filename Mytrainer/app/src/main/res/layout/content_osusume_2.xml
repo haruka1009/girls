@@ -13,14 +13,6 @@
     tools:context="com.example.haruka.mytrainer.osusume_2"
     tools:showIn="@layout/activity_osusume_2">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/totext"
-        android:layout_alignRight="@+id/totext"
-        android:layout_alignEnd="@+id/totext"
-        android:id="@+id/tofin2" />
-
     <TextView
         android:text="本日のおすすめ"
         android:layout_width="wrap_content"
@@ -81,13 +73,4 @@
         android:layout_marginTop="76dp"
         android:id="@+id/imageView" />
 
-    <TextView
-        android:text="おつかれさまでした"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageView"
-        android:layout_toStartOf="@+id/textView4"
-        android:layout_marginBottom="43dp"
-        android:id="@+id/textView5"
-        android:layout_toLeftOf="@+id/textView4" />
 </RelativeLayout>

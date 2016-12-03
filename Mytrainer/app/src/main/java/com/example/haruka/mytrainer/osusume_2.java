@@ -23,18 +23,26 @@ public class osusume_2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplication(),Play_3.class);
-                startActivity(intent);
+                int requestCode=2;
+                startActivityForResult(intent,requestCode);
             }
         });
+        Intent intent=getIntent();
+        int res = intent.getIntExtra("RESULT", 0);
+        if(res==1){
+            Intent intent2 = new Intent(getApplication(),otsukare_4.class);
+            startActivity(intent2);
+        }
 
-        Button sendButton2 = (Button) findViewById(R.id.tofin2);
-        sendButton2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplication(),card_5.class);
-                startActivity(intent);
-            }
-        });
     }
+//    protected void onActivityResult(int requestCode, int resultCode, Intent intent){
+//        super.onActivityResult(requestCode, resultCode, intent);
+//        // 受け取るためのコード
+//        int res = intent.getIntExtra("RESULT", 0);
+//        if(res==1){
+//            Intent intent2 = new Intent(getApplication(),otsukare_4.class);
+//            startActivity(intent2);
+//        }
+//    }
 
 }
