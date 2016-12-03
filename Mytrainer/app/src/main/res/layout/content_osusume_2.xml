@@ -13,4 +13,81 @@
     tools:context="com.example.haruka.mytrainer.osusume_2"
     tools:showIn="@layout/activity_osusume_2">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/totext"
+        android:layout_alignRight="@+id/totext"
+        android:layout_alignEnd="@+id/totext"
+        android:id="@+id/tofin2" />
+
+    <TextView
+        android:text="本日のおすすめ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/totext"
+        android:layout_toStartOf="@+id/totext"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:text="昨晩あまり眠れなかったあなたに"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:text="安眠ヨガ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_toLeftOf="@+id/totext"
+        android:layout_toStartOf="@+id/totext"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView4" />
+
+    <Button
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/to_Play"
+        android:layout_marginBottom="89dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/totext"
+        android:layout_marginRight="43dp"
+        android:layout_marginEnd="43dp"
+        android:layout_alignBaseline="@+id/to_Play"
+        android:layout_alignBottom="@+id/to_Play"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/btn_star_big_off"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:text="おつかれさまでした"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_toStartOf="@+id/textView4"
+        android:layout_marginBottom="43dp"
+        android:id="@+id/textView5"
+        android:layout_toLeftOf="@+id/textView4" />
 </RelativeLayout>
