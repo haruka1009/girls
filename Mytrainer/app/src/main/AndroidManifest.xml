@@ -18,7 +18,9 @@
         <activity
             android:name=".osusume_2"
             android:label="@string/title_activity_osusume_2"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Play_3" />
+        <activity android:name=".card_5"></activity>
     </application>
 
 </manifest>
