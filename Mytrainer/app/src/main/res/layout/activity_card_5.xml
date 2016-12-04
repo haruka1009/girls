@@ -99,6 +99,27 @@
         android:layout_alignStart="@+id/firstweek"
         android:layout_marginTop="19dp" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/hanamaru2"
+        android:id="@+id/specialstar"
+        android:layout_alignTop="@+id/firstweek"
+        android:layout_alignLeft="@+id/sun"
+        android:layout_alignStart="@+id/sun" />
+
+    <TextView
+        android:text="月"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/mon"
+        android:layout_below="@+id/card"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
     <TextView
         android:text="火"
         android:layout_width="wrap_content"
