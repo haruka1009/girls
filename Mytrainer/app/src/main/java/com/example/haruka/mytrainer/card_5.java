@@ -37,4 +37,6 @@ public class card_5 extends AppCompatActivity {
 //        img.startAnimation(animation);
 
     }
+
+
 }
